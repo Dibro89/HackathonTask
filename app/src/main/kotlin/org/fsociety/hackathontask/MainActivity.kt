@@ -1,6 +1,6 @@
 @file:Suppress("DEPRECATION")
 
-package dika.hackathontask
+package org.fsociety.hackathontask
 
 import android.graphics.Color
 import android.os.Bundle
