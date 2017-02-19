@@ -1,3 +1,5 @@
+@file:Suppress("DEPRECATION")
+
 package dika.hackathontask
 
 import android.graphics.Color
@@ -102,11 +104,10 @@ class MainActivity : AppCompatActivity() {
                                 val barWidth = 0.36f
 
                                 barData.barWidth = barWidth
-                                groupBars(0f, groupSpace, barSpace)
-
                                 xAxis.axisMaximum = days.toFloat()
 
-                                chart.invalidate()
+                                groupBars(0f, groupSpace, barSpace)
+                                invalidate()
                             }
                         }
                     }
