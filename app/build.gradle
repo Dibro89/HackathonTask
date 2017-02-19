@@ -38,6 +38,10 @@ android {
     }
 }
 
+repositories {
+    maven { url "https://jitpack.io" }
+}
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 //    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
@@ -50,5 +54,7 @@ dependencies {
     compile 'org.jetbrains.anko:anko-sdk15:0.9.1a'
 
     compile 'com.github.kittinunf.fuel:fuel-android:1.5.0'
-    compile 'com.jjoe64:graphview:4.2.1'
+//    compile 'com.jjoe64:graphview:4.2.1'
+    
+    compile 'com.github.PhilJay:MPAndroidChart:v3.0.1'
 }
